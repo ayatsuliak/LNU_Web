@@ -1,0 +1,39 @@
+@media only screen and (max-width: 900px),
+       only screen and (min-width: 768px) and (max-width: 1023px) {
+    body { min-width: auto; }
+    .pageWidth, #container .pageWidth {width: auto;}
+    #header { padding: 0 15px}
+    #banner { padding: 25px 15px}
+    #banner ul li img {border-radius: 7px;}
+    nav { padding: 5px 0 0 }
+    nav li { padding: 0 5px;}
+    nav li a { display: block; line-height: 27px;}
+    #container { padding: 20px 15px;}
+    #footer { padding: 20px 0}
+}
+@media only screen and (max-width: 767px),
+       only screen and (max-device-width: 480px),
+       only screen and (max-width: 767px) {
+    body {min-width: auto;}
+    .pageWidth {width: auto;}
+    #logo { float: none; text-align: center; margin: 0 0 15px 0;
+            padding: 20px 15px 22px 15px; line-height: 25px;}
+    #header { padding: 0 10px}
+    #banner { padding: 15px 10px }
+    #container { padding: 20px 10px;}
+    #container .pageWidth {padding: 20px 15px;}
+    nav { float: none; margin-bottom: 15px; padding: 0}
+    nav ul {display: none; background: rgba(000, 000, 000, 0.1)}
+    nav li {float: none; display: block; margin: 0; border: none;
+            padding: 0; border-top: solid 1px rgba(255, 255, 255, 0.05)}
+    nav li a { padding: 7px 15px; }
+    nav li:first-child {border-top: solid 1px rgba(255, 255, 255, 0.05)}
+    nav li:hover a, nav li.active a { background: rgba(000, 000, 000, 0.1)}
+    nav li:hover:before, nav li.active:before { display: none}
+    #menu { display: block;}
+    #footer { padding: 15px 0}
+}
+@media only screen and (max-width: 400px),
+       only screen and (max-device-width: 400px),
+       only screen and (max-width: 400px) {
+}
